@@ -1,0 +1,46 @@
+
+.navbar{
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    display: flex;
+    font-size: 35px;
+    font-family:cursive;
+    color: white;
+}
+
+.logo img {
+    margin-right: 10px;
+
+}
+
+.opcoes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+.opcao {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+    cursor: pointer;
+    padding: 0 15px;
+    color: white;
+  }
+
+  .icones {
+    display: flex;
+    align-items: center;
+  }
+  
+  .icone {
+    font-size: 28px;
+    padding: 0 12px;
+    color: white;
+  }
