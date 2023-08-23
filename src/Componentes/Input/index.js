@@ -1,7 +1,6 @@
-import { useState } from "react"
 import { styled } from "styled-components"
 
-const InputCampo = styled.input`
+const Input = styled.input`
     background: write;
     border: 1px solid black;
     padding: 15px 100px;
@@ -17,16 +16,4 @@ const InputCampo = styled.input`
         font-size: 18px;
     }
 `
-const Input = (props) => {
-
-    const [valor, setValor] = useState("")
-
-    return(
-        <div>
-            <InputCampo placeholder={props.placeholder}  onChange={e => setValor(e.target.value)} />
-            <p>{valor}</p>
-        </div>
-    )
-}
-
 export default Input
