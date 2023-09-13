@@ -30,9 +30,7 @@ const Resultado = styled.div`
     img {
         width: 100px;
     }
-    &:hover {
-        border: 1px solid white;
-    }
+ 
 `
 
 const Pesquisa = () =>{
